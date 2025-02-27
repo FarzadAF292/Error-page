@@ -1,4 +1,4 @@
-/* font-family: 'Satoshi', sans-serif; */
+/* font-family: 'Switzer', sans-serif; */
 
 * {
   padding: 0;
@@ -12,20 +12,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 
 .container {
   background-color: white;
   width: 800px;
   height: 100vh;
-  padding: 27.75px 36px 0 36px;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Satoshi", sans-serif;
+  padding: 27.75px 36px 0 36px;
+  font-family: "Switzer", sans-serif;
 }
 
 .logo {
@@ -67,4 +68,70 @@ header > nav > ul > li > a {
   font-size: 10px;
   line-height: 13.2px;
   color: #171717;
+}
+
+.hero-page {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 42px;
+  padding: 27.75px 36px 0 36px;
+}
+
+.left-side {
+  display: flex;
+  justify-content: end;
+}
+
+.right-side {
+  display: block;
+  justify-content: start;
+  font-family: "Switzer", sans-serif;
+  padding: 40px 70px 0 0;
+}
+
+.right-side h1 {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 60px;
+  color: #111827;
+}
+
+.right-side p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  margin-top: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-top: 20px;
+}
+
+.search-container input {
+  padding: 8px 15.2px;
+  border: 1px solid #d1d5db;
+  border-radius: 22.38px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15.84px;
+  width: 180px;
+}
+
+.search-container a {
+  padding: 9px;
+  background-color: #111827;
+  border-radius: 50%;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container a:hover {
+  background-color: #0056b3;
 }
